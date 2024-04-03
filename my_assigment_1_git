@@ -1,0 +1,432 @@
+Script started on 2024-04-03 13:38:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git  -- vesrion
+unknown option: --
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git --version
+git version 2.25.1
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ [K(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git config --list --show-origin
+[?1h=file:/home/suraj-hulke/.gitconfig       user.name=surajhulkeDSSA[m
+file:/home/suraj-hulke/.gitconfig       user.email=suraj.hulke@tigeranalytics.com[m
+file:/home/suraj-hulke/.gitconfig       credential.helper=/mnt/c/Users/suraj.hulke/AppData/Local[m /Programs/Git/mingw64/libexec/git-core/git-credential-wincred.exe[m
+file:/home/suraj-hulke/.gitconfig       init.defaultbranch=main[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git config user.name
+surajhulkeDSSA
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git help config
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                             Git Manual                            GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [value [value[m _regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get name [value_[m regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-all name [va[m lue_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--name-only] --ge[m t-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the[m
+       section and the key separated by a dot, and the value will be escaped.[m
+[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ git add -h
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ ls
+ [0m[34;42mAppData[0m
+[01;36m'Application Data'[0m
+ [34;42mContacts[0m
+ [01;36mCookies[0m
+ [34;42mDesktop[0m
+ [34;42mDocuments[0m
+ [34;42mDownloads[0m
+ [34;42mFavorites[0m
+ [34;42mIntelGraphicsProfiles[0m
+ [34;42mLinks[0m
+[01;36m'Local Settings'[0m
+ [34;42mMusic[0m
+[01;36m'My Documents'[0m
+ [01;32mNTUSER.DAT[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;36mNetHood[0m
+ [34;42mOneDrive[0m
+ [34;42mPictures[0m
+ [01;36mPrintHood[0m
+ [01;36mRecent[0m
+[34;42m'Saved Games'[0m
+ [34;42mSearches[0m
+ [01;36mSendTo[0m
+[01;36m'Start Menu'[0m
+ [01;36mTemplates[0m
+ [34;42mVideos[0m
+ [01;32mntuser.dat.LOG1[0m
+ [01;32mntuser.dat.LOG2[0m
+ [01;32mntuser.ini[0m
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ cd ~
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;34mnewtest[0m
+ Shell                          haiku.txt                [01;34mnewtest1[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mproject[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               redo-figure-3.sh
+ do                             [01;34mmy[0m                       sorted.sh
+ done                           my_assigmnet_1_git       testgit_session
+ echo                           my_git_completesession   [01;34mthesis_backup[0m
+'file with spaces.txt'          my_git_session           unix-session-2
+'file-with-punctuation\!.txt'   my_miniconda_session    '~$_unix_session'
+ file_without_spaces.txt        [01;34mmy_project[0m
+ finding                        [01;32mmy_unix_session[0m
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd ..
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls
+[0m[01;34msuraj-hulke[0m
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ suraj-hulke
+suraj-hulke: command not found
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ cd suraj-hulke
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;34mnewtest[0m
+ Shell                          haiku.txt                [01;34mnewtest1[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mproject[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               redo-figure-3.sh
+ do                             [01;34mmy[0m                       sorted.sh
+ done                           my_assigmnet_1_git       testgit_session
+ echo                           my_git_completesession   [01;34mthesis_backup[0m
+'file with spaces.txt'          my_git_session           unix-session-2
+'file-with-punctuation\!.txt'   my_miniconda_session    '~$_unix_session'
+ file_without_spaces.txt        [01;34mmy_project[0m
+ finding                        [01;32mmy_unix_session[0m
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd my_projj[Kect
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ ls
+README  [0m[01;34mTIMLEP[0m  filename.txt  [01;34mmle-training[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git init
+Reinitialized existing Git repository in /home/suraj-hulke/my_project/.git/
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31m.gitignore.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ ls
+README  [0m[01;34mTIMLEP[0m  filename.txt  [01;34mmle-training[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git add li[K[KLICENSWW[KE[K[KE
+fatal: pathspec 'LICENSE' did not match any files
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git add LICENSE[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -m 'Initial project version'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'i'g'n'o'r'e' 'f'i'l'e' 'a'd'd'i't'o'n'ion'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31m.gitignore.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git commit -m 'ignore file addition'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31m.gitignore.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git add .commit -m 'ignore file addition'
+[master 9055544] ignore file addition
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 .gitignore.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ ls
+README  [0m[01;34mTIMLEP[0m  filename.txt  [01;34mmle-training[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ git clone https://github.com/surajhulkeDSSA/TIMLEP.git
+fatal: destination path 'TIMLEP' already exists and is not an empty directory.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ ls
+README  [0m[01;34mTIMLEP[0m  filename.txt  [01;34mmle-training[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project[00m$ cd ti[K[KTIMLEP
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ LS
+LS: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ ls
+README.md
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ echo 'My Project' > README
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ ls
+README  README.md
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ rn [K[Km README.md
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ rm README.mdls[Kecho 'My Project' > README
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ ls
+README
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git add .
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git add .statusls[Kecho 'My Project' > READMEls[Kgit status[1Padd .[Kgit add .statusls[Kecho 'My Project' > README[14Prm README.mdls[Kecho 'My Project' > READMEls[KLScd TIMLEPls[Kgit clone https://github.com/surajhulkeDSSA/TIMLEP.git[A(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m 'ignore file addition'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'r'e'a'd'm'e' 'a'd'd'e'd'
+[main 6918ac1] readme added
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ create mode 100644 README
+ delete mode 100644 README.md
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git add CONTRIBUTING.md
+fatal: pathspec 'CONTRIBUTING.md' did not match any files
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git diff
+[?1h=[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git diff staged
+fatal: ambiguous argument 'staged': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git diff staged-staged-staged
+[?1h=[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git diff --staged[K[K[K[K[K[Kcahch[K[K[Kched
+[?1h=[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git log
+[?1h=[33mcommit 6918ac1a83d986efe259e570b2586389f592afcc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: surajhulkeDSSA <suraj.hulke@tigeranalytics.com>[m
+Date:   Wed Apr 3 13:44:03 2024 +0530[m
+[m
+    readme added[m
+[m
+[33mcommit 49bff90720923b6f5edd40a1e91d9fbec21e727e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: surajhulkeDSSA <164867799+surajhulkeDSSA@users.noreply.github.com>[m
+Date:   Wed Apr 3 12:06:08 2024 +0530[m
+[m
+    Initial commit[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git log -p - [K2
+[?1h=[33mcommit 6918ac1a83d986efe259e570b2586389f592afcc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: surajhulkeDSSA <suraj.hulke@tigeranalytics.com>[m
+Date:   Wed Apr 3 13:44:03 2024 +0530[m
+[m
+    readme added[m
+[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[1mdiff --git a/README.md b/README.md[m[m
+[1mdeleted file mode 100644[m[m
+[1mindex 712918d..0000000[m[m
+[1m--- a/README.md[m[m
+[1m+++ /dev/null[m[m
+[36m@@ -1,2 +0,0 @@[m[m
+[31m-# TIMLEP[m[m
+[31m-for TIMLEP ASSIGNMENT[m[m
+[m
+[33mcommit 49bff90720923b6f5edd40a1e91d9fbec21e727e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: surajhulkeDSSA <164867799+surajhulkeDSSA@users.noreply.github.com>[m
+Date:   Wed Apr 3 12:06:08 2024 +0530[m
+[m
+    Initial commit[m
+[m
+[1mdiff --git a/README.md b/README.md[m[m
+[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..712918d[m[m
+:[K[K:[K[K[?1l>
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git log --stat
+[?1h=[33mcommit 6918ac1a83d986efe259e570b2586389f592afcc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: surajhulkeDSSA <suraj.hulke@tigeranalytics.com>[m
+Date:   Wed Apr 3 13:44:03 2024 +0530[m
+[m
+    readme added[m
+[m
+ README    | 1 [32m+[m[m
+ README.md | 2 [31m--[m[m
+ 2 files changed, 1 insertion(+), 2 deletions(-)[m
+[m
+[33mcommit 49bff90720923b6f5edd40a1e91d9fbec21e727e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: surajhulkeDSSA <164867799+surajhulkeDSSA@users.noreply.github.com>[m
+Date:   Wed Apr 3 12:06:08 2024 +0530[m
+[m
+    Initial commit[m
+[m
+ README.md | 2 [32m++[m[m
+ 1 file changed, 2 insertions(+)[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git log --pretty-[K=oneline
+[?1h=[33m6918ac1a83d986efe259e570b2586389f592afcc[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m readme added[m
+[33m49bff90720923b6f5edd40a1e91d9fbec21e727e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Initial commit[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git commit ammend
+error: pathspec 'ammend' did not match any file(s) known to git
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git restore CONTRIBUTING.md
+error: pathspec 'CONTRIBUTING.md' did not match any file(s) known to git
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git branchrestore CONTRIBUTING.md[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpush origin master
+error: src refspec master does not match any
+[31merror: failed to push some refs to 'https://github.com/surajhulkeDSSA/TIMLEP.git'
+[m(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git push origin master[K[K[K[K[K[Kmain
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 260 bytes | 260.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/surajhulkeDSSA/TIMLEP.git
+   49bff90..6918ac1  main -> main
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git tag
+[?1h=[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git branch testing
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git checkpu[K[Kout master
+error: pathspec 'master' did not match any file(s) known to git
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git remote add origin https://github.com/surajhulkeDSSA/TIMLEP.git
+fatal: remote origin already exists.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git remote add origin https://github.com/surajhulkeDSSA/TIMLEP.git[A(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ [C[C[C[C[26Pcheckout master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pbranch testingtag[Kstatuspush origin main
+Everything up-to-date
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ mkdir repo1
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ mkdir repo1git checkout main[3@push origin[C[C[C[C[Cremote add origin https://github.com/surajhulkeDSSA/TIMLEP.git[A(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ [C[C[C[C[26Pcheckout master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pbranch testingtag[Kstatuspush origin mainster[12Pbranchrestore CONTRIBUTING.md[10Pcommit ammend[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+README  [0m[01;34mrepo1[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP[00m$ cd repo1
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ cd repo1ls[Kmkdir repo1git checkout main[3@push origin[C[C[C[C[Cremote add origin https://github.com/surajhulkeDSSA/TIMLEP.git[A(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ [C[C[C[C[20Pcheckout master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pbranch testingtag[Kstatuspush origin mainster[12Pbranchrestore CONTRIBUTING.md[10Pcommit ammendlog --pretty=onelinestat[K[1Pp -2[Kcommitdiff --cachedstaged[2Pstaged[Kadd CONTRIBUTING.mdstatus[Kcommit -m 'readme added'add .[Kstatusls[Kecho 'My Project' > README[14Prm README.mdls[Kecho 'My Project' > READMEls[KLScd TIMLEPls[Kgit clone https://github.com/surajhulkeDSSA/TIMLEP.git[A(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/surajhulkeDSSA/TIMLEP.git
+Cloning into 'TIMLEP'...
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 1.08 KiB | 38.00 KiB/s, done.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ ls
+[0m[01;34mTIMLEP[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git checkout -b enh/1/mle-training[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksubbranch[K[K[K[K[K[Kmain
+Switched to a new branch 'submain'
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git branch
+[?1h=  main[m[m
+* [32msubmain[m[m
+  testing[m[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git clone git@github.com:surajhulkeDSSA/mle-training.git
+Cloning into 'mle-training'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ ls
+[0m[01;34mTIMLEP[0m  [01;34mmle-training[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git branch
+[?1h=  main[m[m
+* [32msubmain[m[m
+  testing[m[m
+[K[?1l>(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git merge submain
+Already up to date.
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ goit[K[K[K[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ add .
+
+Command 'add' not found, did you mean:
+
+  command 'tdd' from deb devtodo (0.1.20-7build1)
+  command 'ad' from deb netatalk (3.1.12~ds-4)
+  command 'ldd' from deb libc-bin (2.31-0ubuntu9.9)
+  command 'pdd' from deb pdd (1.4-2)
+  command 'dd' from deb coreutils (8.30-3ubuntu2)
+  command 'axd' from deb afnix (2.9.2-2build1)
+  command 'dad' from deb debian-dad (1)
+  command 'amd' from deb am-utils (6.2+rc20110530-3.2ubuntu2)
+  command 'atd' from deb at (3.1.23-1ubuntu1)
+  command 'ddd' from deb ddd (1:3.3.12-5.2build1)
+  command 'aid' from deb id-utils (4.6+git20120811-4ubuntu2)
+  command 'adb' from deb adb (1:8.1.0+r23-5ubuntu2)
+
+Try: sudo apt install <deb name>
+
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git commit -m 'all added'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git ./
+git: './' is not a git command. See 'git --help'.
+
+The most similar commands are
+	am
+	gc
+	mv
+	rm
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ git stt[Katus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;suraj-hulke@TIGER03833: ~/my_project/TIMLEP/repo1[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/my_project/TIMLEP/repo1[00m$ exit
+exit
+
+Script done on 2024-04-03 14:14:06+05:30 [COMMAND_EXIT_CODE="0"]

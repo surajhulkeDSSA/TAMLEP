@@ -1,0 +1,803 @@
+Script started on 2024-04-03 15:26:15+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="31"]
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ s[Kls
+ [0m[34;42mAppData[0m
+[01;36m'Application Data'[0m
+ [34;42mContacts[0m
+ [01;36mCookies[0m
+ [34;42mDesktop[0m
+ [34;42mDocuments[0m
+ [34;42mDownloads[0m
+ [34;42mFavorites[0m
+ [34;42mIntelGraphicsProfiles[0m
+ [34;42mLinks[0m
+[01;36m'Local Settings'[0m
+ [34;42mMusic[0m
+[01;36m'My Documents'[0m
+ [01;32mNTUSER.DAT[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms[0m
+ [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;36mNetHood[0m
+ [34;42mOneDrive[0m
+ [34;42mPictures[0m
+ [01;36mPrintHood[0m
+ [01;36mRecent[0m
+[34;42m'Saved Games'[0m
+ [34;42mSearches[0m
+ [01;36mSendTo[0m
+[01;36m'Start Menu'[0m
+ [01;36mTemplates[0m
+ [34;42mVideos[0m
+ [01;32mntuser.dat.LOG1[0m
+ [01;32mntuser.dat.LOG2[0m
+ [01;32mntuser.ini[0m
+(base) ]0;suraj-hulke@TIGER03833: /mnt/c/Users/suraj.hulke[01;32msuraj-hulke@TIGER03833[00m:[01;34m/mnt/c/Users/suraj.hulke[00m$ cd ~
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;32mmy_unix_session[0m
+ Shell                          haiku.txt                [01;34mnewtest[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mnewtest1[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               [01;34mproject[0m
+ do                             [01;34mmy[0m                       redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis_backup[0m
+'file-with-punctuation\!.txt'   my_git_session           unix-session-2
+ file_without_spaces.txt        my_miniconda_session    '~$_unix_session'
+ finding                        [01;34mmy_project[0m
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd .
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd ..
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls
+[0m[01;34msuraj-hulke[0m
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ks
+ks: command not found
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ pwd
+/home
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls -f
+suraj-hulke  ..  .
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report ls translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ man s[Kls
+[?1049h[22;0;0t[?1h=LS(1)                                   User Commands                                   LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List information about the FILEs (the current directory by default).  Sort entries al‐[m
+       phabetically if none of [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them;  e.g.,  '--block-size=M';  see[m
+              SIZE format below[m
+[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls -j
+ls: invalid option -- 'j'
+Try 'ls --help' for more information.
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls -f Desktop
+ls: cannot access 'Desktop': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls i[K-f si[Ki[K[K[K[K[K[K[K[Kls -f Desktop[K[K[K[K[K[K[Ksuraj-hulke
+'file with spaces.txt'       redo-figure-3.sh          project
+ haiku.txt                   .git                      my_git_session
+ unix-session-2              .motd_shown               .bashrc
+ Shell                       my_assigment_1_git        .local
+ sorted.sh                   finding                   done
+ github                      .Rhistory                 my_project
+ .landscape                  file_without_spaces.txt  '~$_unix_session'
+ .sudo_as_admin_successful   my_miniconda_session      2016-05-20
+ do                          my_assigmnet_1_unix      'file-with-punctuation\!.txt'
+ .gitconfig                  .profile                  echo
+ my_unix_session             .ssh                      newtest1
+ .conda                      .bash_logout              ..
+ .cache                      newtest                   thesis_backup
+ backup                      .zshrc                    .
+ .bash_history               middle.sh                 alkanes
+ my                          testgit_session           miniconda3
+ my_git_completesession      .viminfo
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls -f suraj-hulke/alkanes
+..  .
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ ls
+[0m[01;34msuraj-hulke[0m
+(base) ]0;suraj-hulke@TIGER03833: /home[01;32msuraj-hulke@TIGER03833[00m:[01;34m/home[00m$ cd suraj-hulke
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;32mmy_unix_session[0m
+ Shell                          haiku.txt                [01;34mnewtest[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mnewtest1[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               [01;34mproject[0m
+ do                             [01;34mmy[0m                       redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis_backup[0m
+'file-with-punctuation\!.txt'   my_git_session           unix-session-2
+ file_without_spaces.txt        my_miniconda_session    '~$_unix_session'
+ finding                        [01;34mmy_project[0m
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls -f
+'file with spaces.txt'       redo-figure-3.sh          project
+ haiku.txt                   .git                      my_git_session
+ unix-session-2              .motd_shown               .bashrc
+ Shell                       my_assigment_1_git        .local
+ sorted.sh                   finding                   done
+ github                      .Rhistory                 my_project
+ .landscape                  file_without_spaces.txt  '~$_unix_session'
+ .sudo_as_admin_successful   my_miniconda_session      2016-05-20
+ do                          my_assigmnet_1_unix      'file-with-punctuation\!.txt'
+ .gitconfig                  .profile                  echo
+ my_unix_session             .ssh                      newtest1
+ .conda                      .bash_logout              ..
+ .cache                      newtest                   thesis_backup
+ backup                      .zshrc                    .
+ .bash_history               middle.sh                 alkanes
+ my                          testgit_session           miniconda3
+ my_git_completesession      .viminfo
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls _S[K[K-S suraj-hulke
+ls: cannot access 'suraj-hulke': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;32mmy_unix_session[0m
+ Shell                          haiku.txt                [01;34mnewtest[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mnewtest1[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               [01;34mproject[0m
+ do                             [01;34mmy[0m                       redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis_backup[0m
+'file-with-punctuation\!.txt'   my_git_session           unix-session-2
+ file_without_spaces.txt        my_miniconda_session    '~$_unix_session'
+ finding                        [01;34mmy_project[0m
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls - [KS my
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls -S my_project
+[0m[01;34mTIMLEP[0m  [01;34mmle-training[0m  README  filename.txt
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ld _F /
+
+Command 'ld' not found, but can be installed with:
+
+sudo apt install binutils
+
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls -F /
+[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mlost+found[0m/  [01;34mmnt[0m/  [01;34mproc[0m/  [01;34mrun[0m/   [01;34msnap[0m/  [01;34msys[0m/  [01;34musr[0m/
+[01;34mboot[0m/  [01;34metc[0m/  [01;32minit[0m*  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmedia[0m/       [01;34mopt[0m/  [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/   [30;42mtmp[0m/  [01;34mvar[0m/
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ mkdir thess[Kis
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;32mmy_unix_session[0m
+ Shell                          haiku.txt                [01;34mnewtest[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mnewtest1[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               [01;34mproject[0m
+ do                             [01;34mmy[0m                       redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis[0m
+'file-with-punctuation\!.txt'   my_git_session           [01;34mthesis_backup[0m
+ file_without_spaces.txt        my_miniconda_session     unix-session-2
+ finding                        [01;34mmy_project[0m              '~$_unix_session'
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls -F
+ [0m[01;34m2016-05-20[0m/                    github                   [01;32mmy_unix_session[0m*
+ Shell                          haiku.txt                [01;34mnewtest[0m/
+ [01;34malkanes[0m/                       middle.sh                [01;34mnewtest1[0m/
+ [01;34mbackup[0m/                        [01;34mminiconda3[0m/              [01;34mproject[0m/
+ do                             [01;34mmy[0m/                      redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis[0m/
+'file-with-punctuation\!.txt'   my_git_session           [01;34mthesis_backup[0m/
+ file_without_spaces.txt        my_miniconda_session     unix-session-2
+ finding                        [01;34mmy_project[0m/             '~$_unix_session'
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls _f[KF[K[K-F thesis
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ mkdir thesis/ptoject[K[K[K[K[K[Kroject
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd mkf[Kdo[Kir
+bash: cd: mkdir: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ cd thesis
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano.draft.txt
+nano.draft.txt: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano.draft.txt[1Pdraft.txt draft.txt
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                               draft.txt                                          [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[1;87H(B[0;7mModified(B[m[2dh[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: draft.txt                                                                   [29;1H(B[m[29;30H[?12l[?25h[?25l[29;30H[?12l[?25h[?25l[29;30H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;41H(B[0;7m[ Wrote 1 line ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2;22H[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cd draft.txt
+bash: cd: draft.txt: Not a directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ touch my_file.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  my_file.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rm ,[Kmy_file.txtx[K
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cd ..
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ ls
+ [0m[01;34m2016-05-20[0m                     github                   [01;32mmy_unix_session[0m
+ Shell                          haiku.txt                [01;34mnewtest[0m
+ [01;34malkanes[0m                        middle.sh                [01;34mnewtest1[0m
+ [01;34mbackup[0m                         [01;34mminiconda3[0m               [01;34mproject[0m
+ do                             [01;34mmy[0m                       redo-figure-3.sh
+ done                           my_assigment_1_git       sorted.sh
+ echo                           my_assigmnet_1_unix      testgit_session
+'file with spaces.txt'          my_git_completesession   [01;34mthesis[0m
+'file-with-punctuation\!.txt'   my_git_session           [01;34mthesis_backup[0m
+ file_without_spaces.txt        my_miniconda_session     unix-session-2
+ finding                        [01;34mmy_project[0m              '~$_unix_session'
+(base) ]0;suraj-hulke@TIGER03833: ~[01;32msuraj-hulke@TIGER03833[00m:[01;34m~[00m$ mv thes[K[K[K[K[K[K[Kcd thse[K[Kesis
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ mv thesis/draft.txt thesis/quotes.txt
+mv: cannot stat 'thesis/draft.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ mv thesis/darft.txt thesis [K/quotes.txt
+mv: cannot stat 'thesis/darft.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ draft,[K[K[K[K[Klsmv thesis/darft.txt thesis/quotes.txt[1Pquotes.txt[1Pquotes.txt[1Pquotes.txt[1Pquotes.txt[1Pquotes.txt[1Pquotes.txt[1Pquotes.txt[1P[1P[1P[1P[1P[1P[1P
+mv: cannot stat 'darft.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ mv darft.txt quotes.txtls[Kmv thesis/darft.txt thesis/quotes.txt[1P[C[1@a
+mv: cannot stat 'thesis/draft.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mproject[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ mv draft.txt quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m  quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cp quotes.txt thesis/quotations.txt
+cp: cannot create regular file 'thesis/quotations.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cp quotes.txt thesis/quotations.txt[C[1Pquotations.txt[1Pquotations.txt[1Pquotations.txt[1Pquotations.txt[1Pquotations.txt[1Pquotations.txt[1Pquotations.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m  quotations.txt  quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ $ mkdir 2016-05-20
+kdir 2016-05-20/data
+$ mkdir 2016-05-20/data/processed
+$ mkdir 2016-05-20/data/raw$: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ $ mkdir 2016-05-20/data
+$: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ $ mkdir 2016-05-20/data/processed
+$: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ $ mkdir 2016-05-20/data/raw
+$: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m  quotations.txt  quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ mkdir test
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rm test
+rm: cannot remove 'test': Is a directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m  quotations.txt  quotes.txt  [01;34mtest[0m
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rm test
+rm: cannot remove 'test': Is a directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rm - r [K[K[Kr test
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+[0m[01;34mproject[0m  quotations.txt  quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc quotes.txt
+ 1  5 22 quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc quotes.txt-quotes.txtlquotes.txt quotes.txt*quotes.txt^[quotes.txt[2~quotes.txt[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[2P.txt
+ 1 quotations.txt
+ 1 quotes.txt
+ 2 total
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc -l
+^C
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc -l *.pdb > lengths.txt[C[1P[1P[1P[1@t[1@x[1@t
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+lengths.txt  [0m[01;34mproject[0m  quotations.txt  quotes.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls length.txt
+ls: cannot access 'length.txt': No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls length.txts.txt
+lengths.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ca [K[K[Kls lengths.txt[1Plengths.txt[1Plengths.txt[1Pengths.txtclengths.txtalengths.txttlengths.txt lengths.txt
+ 1 quotations.txt
+ 1 quotes.txt
+ 2 total
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ sort -n lentghs.txt
+sort: cannot read: lentghs.txt: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ sort -n lentghs.txt[1Ps.txt[1Ps.txt[1Ps.txtgs.txtts.txths.txt
+ 1 quotations.txt
+ 1 quotes.txt
+ 2 total
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ sort -n lengths.txt > sorted-lengths.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ head -n 1 sorted-lengths.txt
+ 1 quotations.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ echo The echo command prints text
+The echo command prints text
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ echo hello > testfile01.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ echo hello >> testfile02.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ head -n 3 animals.csv > animals-subset.csv
+head: cannot open 'animals.csv' for reading: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ head -n 3 animals.csv > animals-subset.csv
+head: cannot open 'animals.csv' for reading: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ sort -n lengths.txt | head -n 1
+ 1 quotations.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc -l *.pdb | sort -n[1P[1P[1P[1@t[1@x[1@t
+  1 quotations.txt
+  1 quotes.txt
+  1 testfile01.txt
+  1 testfile02.txt
+  3 lengths.txt
+  3 sorted-lengths.txt
+ 10 total
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc -l *.pdb | sort -n | head -n 1[C[1P[1P[1P[1@t[1@x[1@t
+  1 quotations.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ # Iterate over each file in the directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ for file in *; do
+>     # Check if the file is a regular file
+>     if [ -f "$file" ]; then
+>         # Perform some operation on each file, for example, print the filename
+>         echo "Processing file: $file"
+>         # Add your desired operation here
+>     fi
+> done
+Processing file: animals-subset.csv
+Processing file: lengths.txt
+Processing file: quotations.txt
+Processing file: quotes.txt
+Processing file: sorted-lengths.txt
+Processing file: testfile01.txt
+Processing file: testfile02.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ for filename in *.txt
+> > do
+bash: syntax error near unexpected token `>'
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ >     echo $filename
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ >     head -n 100 $filename | tail -n 20
+-n: command not found
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ > done
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ if [ -d "$directory" ]; then
+>     echo "Processing files in directory: $directory"
+>     
+>     # Navigate to the directory containing the files
+>     cd "$directory"
+>     
+>     # Iterate over each file in the directory
+>     for file in *; do
+>         # Check if the file is a regular file
+>         if [ -f "$file" ]; then
+>             # Perform some operation on each file
+>             echo "Processing file: $file"
+>             # Add your desired operation here
+>         fi
+>     done
+>     
+>     echo "Processing completed."
+> else
+>     echo "Directory not found: $directory"
+> fi
+Directory not found: 
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+animals-subset.csv  echo  lengths.txt  quotations.txt  sorted-lengths.txt  testfile02.txt
+done                head  [0m[01;34mproject[0m      quotes.txt      testfile01.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ #!/bin/bash
+fy the directory(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ 
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ # Specify the directory containing the files
+rectory=(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ directory=~/thesis
+heck if the dire(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ 
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ # Check if the directory exists
+[ -d "$directo(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ if [ -d "$directory" ]; then
+>     echo "Processing files in directory: $directory"
+>     
+>     # Navigate to the directory containing the files
+>     cd "$directory"
+>     
+>     # Iterate over each file in the directory
+>     for file in *; do
+>         # Check if the file is a regular file
+>         if [ -f "$file" ]; then
+>             # Perform some operation on each file
+>             echo "Processing file: $file"
+>             # Add your desired operation here
+>             
+>             # Example operation: Print the first few lines of each file
+>             head "$file"
+>         fi
+>     done
+>     
+>     echo "Processing completed."
+> else
+>     echo "Directory not found: $directory"
+> fi
+Processing files in directory: /home/suraj-hulke/thesis
+Processing file: animals-subset.csv
+Processing file: done
+Processing file: echo
+Processing file: head
+Processing file: lengths.txt
+ 1 quotations.txt
+ 1 quotes.txt
+ 2 total
+Processing file: quotations.txt
+hi this my text file 
+Processing file: quotes.txt
+hi this my text file 
+Processing file: sorted-lengths.txt
+ 1 quotations.txt
+ 1 quotes.txt
+ 2 total
+Processing file: testfile01.txt
+hello
+Processing file: testfile02.txt
+hello
+Processing completed.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+animals-subset.csv  echo  lengths.txt  quotations.txt  sorted-lengths.txt  testfile02.txt
+done                head  [0m[01;34mproject[0m      quotes.txt      testfile01.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano do-stats.sh
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                              do-stats.sh                                         [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[29d[K[1;87H(B[0;7mModified(B[m[2d[36m# Calculate stats for data files.[3d[32mfor[39m(B[m datafile [32min[39m(B[m (B[0;1m[33m"$@"[4d(B[0m[32mdo[5;5H(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$datafile[6;5H[39m(B[mbash goostats.sh (B[0;1m[31m$datafile[39m(B[m stats-(B[0;1m[31m$datafile[7d(B[0m[32mdone[39m(B[m[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: do-stats.sh                                                                 [29;1H(B[m[29;32H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 6 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[7;5H[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ bash do-stats.sh NENE*A.txt NENE*B.txt
+NENE*A.txt
+bash: goostats.sh: No such file or directory
+NENE*B.txt
+bash: goostats.sh: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ bash do-stats.sh NENE*A.txt NENE*B.txt | wc -l
+bash: goostats.sh: No such file or directory
+bash: goostats.sh: No such file or directory
+2
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+animals-subset.csv  done  head         [0m[01;34mproject[0m         quotes.txt          testfile01.txt
+do-stats.sh         echo  lengths.txt  quotations.txt  sorted-lengths.txt  testfile02.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ lsbash do-stats.sh NENE*A.txt NENE*B.txt | wc -l[K[22Pnano do-stats.shls[Knano do-stats.sh1
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                              do-stats.sh1                                        [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[29d[K[1;87H(B[0;7mModified(B[m[2;12H[36m[1K # Perform some operation on each file[3;13H[39m(B[mecho "Processing file: $file"[4;12H[36m[1K # Add your desired operation here[6;12H[1K # Example operation: Print the first few lines of each file[7;13H[39m(B[mhead "$file"[8;9Hfi[9;5Hdone[11;5Hecho "Processing completed."[12delse[13decho "Directory not found: $directory"[14dfi[15d[?12l[?25h[?25l[Afi[?12l[?25h[?25l[?12l[?25h[?25l[15dfi[?12l[?25h[?25l[Afifi[15d[K[Afi[?12l[?25h[?25lfi[K[?12l[?25h[?25li[K[?12l[?25h[?25l[13;43Hfi[14d[K[13;43H[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25li[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lfi[K[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25l[14d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[13;21H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[Aelse[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[11;33H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[9;9H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[8;11H[?12l[?25h[?25l [?12l[?25h[?25l[K[8;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[7;25H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[7;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[6;72H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[6;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[5;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4;46H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[4;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3;42H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[3;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;50H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;9Hif [ -f "$file" ]; then[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[2;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[8G[36m[1K # Check if the file is a regular file[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    for file in *; do[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m    # Iterate over each file in the directory[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    cd "$directory"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m    # Navigate to the directory containing the files[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    echo "Processing files in directory: $directory"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lif [ -d "$directory" ]; then[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[36m# Check if the directory exists[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25ldirectory=~/thesis[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[36m# Specify the directory containing the files[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[36m#!/bin/bash[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l    echo "Directory not found: $directory"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lelse[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l    echo "Processing completed."[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    done[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;9Hfi[?12l[?25h[?25l [?12l[?25h[?25l[K[2;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;13Hhead "$file"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;12H[36m[1K # Example operation: Print the first few lines of each file[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;12H[36m[1K # Add your desired operation here[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;13Hecho "Processing file: $file"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;12H[36m[1K # Perform some operation on each file[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;13H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;9Hif [ -f "$file" ]; then[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[2;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[8G[36m[1K # Check if the file is a regular file[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[2;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    for file in *; do[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m    # Iterate over each file in the directory[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    cd "$directory"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m    # Navigate to the directory containing the files[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    echo "Processing files in directory: $directory"[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K    [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lif [ -d "$directory" ]; then[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[36m# Check if the directory exists[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25ldirectory=~/thesis[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[36m# Specify the directory containing the files[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[36m#!/bin/bash[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;12H[36m[1K # Perform some operation on each file[3;13H[39m(B[mecho "Processing file: $file"[4;12H[36m[1K # Add your desired operation here[6;12H[1K # Example operation: Print the first few lines of each file[7;13H[39m(B[mhead "$file"[8;9Hfi[9;5Hdone[11;5Hecho "Processing completed."[12delse[13decho "Directory not found: $directory"[14dfi[15d[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: do-stats.sh1                                                                [29;1H(B[m[29;33H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 30 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[15d[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ chmod +x do-stats.sh
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ./do-stats.sh
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ 
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ./do-stats.sh^?/do-stats.sh[2P/do-stats.sh[1P/do-stats.sh[C[1Pdo-stats.shbdo-stats.shado-stats.shsdo-stats.shhdo-stats.sh do-stats.sh
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep not haiku.txt
+grep: haiku.txt: No such file or directory
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep not haiku.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtl.txte.txtn.txtg.txtt.txth.txts.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano haiku.txt
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                               haiku.txt                                          [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[29d[K[1;87H(B[0;7mModified(B[m[2dThe Tao that is seen[3dIs not the true Tao, until[4dYou bring fresh toner.[6dWith searching comes loss[7dand the presence of absence:[8d"My Thesis" not found.[10dYesterday it worked[11dToday it is not working[12dSoftware is like that.[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: haiku.txt                                                                   [29;1H(B[m[29;30H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 11 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[12;23H[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep not haiku.txt
+Is [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep The haiku.txt
+[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -w The haiku.txt
+[01;31m[KThe[m[K Tao that is seen
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -w "is not" haiku.txt
+Today it [01;31m[Kis not[m[K working
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -n "it" haiku.txt
+[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -n -w "the" haiku.txt
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -n -w -i "the" haiku.txt
+[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -n -w -v "the" haiku.txt
+[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rep -r Yesterday .
+
+Command 'rep' not found, but can be installed with:
+
+sudo apt install rep
+
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ rep -r Yesterday .[1@g
+[35m[K./haiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep --help
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line (or file if -L) is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ grep -E "^.o" haiku.txt
+[01;31m[KYo[m[Ku bring fresh toner.
+[01;31m[KTo[m[Kday it is not working
+[01;31m[KSo[m[Kftware is like that.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ find .
+.
+./quotes.txt
+./sorted-lengths.txt
+./haiku.txt
+./do-stats.sh
+./lengths.txt
+./quotations.txt
+./testfile02.txt
+./animals-subset.csv
+./do-stats.sh1
+./head
+./testfile01.txt
+./project
+./done
+./echo
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ find . -type d
+.
+./project
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ find . -type f
+./quotes.txt
+./sorted-lengths.txt
+./haiku.txt
+./do-stats.sh
+./lengths.txt
+./quotations.txt
+./testfile02.txt
+./animals-subset.csv
+./do-stats.sh1
+./head
+./testfile01.txt
+./done
+./echo
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ find . -name *.txt
+find: paths must precede expression: `lengths.txt'
+find: possible unquoted pattern after predicate `-name'?
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ wc -l $(find . -name "*.txt")
+  1 ./quotes.txt
+  3 ./sorted-lengths.txt
+ 11 ./haiku.txt
+  3 ./lengths.txt
+  1 ./quotations.txt
+  1 ./testfile02.txt
+  1 ./testfile01.txt
+ 21 total
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$  grep "searching" $(find . -name "*.txt")
+[35m[K./haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ #!/bin/bash
+ists
+if [ -f "h(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ 
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ # Check if haiku.txt exists
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ if [ -f "haiku.txt" ]; then
+>     echo "Making changes to haiku.txt..."
+>     
+>     # Store the content of the file in an array
+>     IFS=$'\n' read -r -d '' -a lines < haiku.txt
+>     
+>     # Iterate over each line in the array
+>     for (( i=0; i<${#lines[@]}; i++ )); do
+>         # Make changes to each line as needed
+>         # Example: convert to uppercase
+>         lines[$i]=$(echo "${lines[$i]}" | tr '[:lower:]' '[:upper:]')
+>     done
+  
+    #>     
+>     # Rewrite the modified content back to the file
+>     printf "%s\n" "${lines[@]}" > haiku.txt
+echo "C>     
+>     echo "Changes made successfully."
+> else
+>     echo "Error: haiku.txt not found."
+> fi
+Making changes to haiku.txt...
+Changes made successfully.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls
+animals-subset.csv  done       head         quotations.txt      testfile01.txt
+[0m[01;32mdo-stats.sh[0m         echo       lengths.txt  quotes.txt          testfile02.txt
+do-stats.sh1        haiku.txt  [01;34mproject[0m      sorted-lengths.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ls haiku.txt
+haiku.txt
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cat haiku.txt
+THE TAO THAT IS SEEN
+IS NOT THE TRUE TAO, UNTIL
+YOU BRING FRESH TONER.
+WITH SEARCHING COMES LOSS
+AND THE PRESENCE OF ABSENCE:
+"MY THESIS" NOT FOUND.
+YESTERDAY IT WORKED
+TODAY IT IS NOT WORKING
+SOFTWARE IS LIKE THAT.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ scriptnscriptascriptnscriptoscript script^[script[2~script[C[C[C[C[C[C.txt[1Pscript.txt[1Pscript.txt[1Pscript.txt[2Pscript.txt[1Pscript.txt script.txt
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                               script.txt                                         [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[29d[K[1;87H(B[0;7mModified(B[m[2d[36m#!/bin/bash[4d# Check if haiku.txt exists[5d[39m(B[mif [ -f "haiku.txt" ]; then[6;5Hecho "Making changes to haiku.txt..."[8d[36m    # Store the content of the file in an array[9;5H[39m(B[mIFS=$'\n' read -r -d '' -a lines < haiku.txt[11d[36m    # Iterate over each line in the array[12;5H[39m(B[mfor (( i=0; i<${#lines[@]}; i++ )); do[13;8H[36m[1K # Make changes to each line as needed[14;8H[1K # Example: convert to lowercase[15;9H[39m(B[mlines[$i]=$(echo "${lines[$i]}" | tr '[:upper:]' '[:lower:]')[16;5Hdone[18d[36m    # Rewrite the modified content back to the file[19;5H[39m(B[mprintf "%s\n" "${lines[@]}" > haiku.txt[21;5Hecho "Changes made successfully."[22delse[23decho "Error: haiku.txt not found."[24dfi[25d[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: script.txt                                                                  [29;1H(B[m[29;31H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 23 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[25d[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano scrpit.sh[K[K[K[K[K[Kipt.sh
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                               script.sh                                          [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m(B[m[?12l[?25h[?25l[29d[K[1;87H(B[0;7mModified(B[m[2d[36m#!/bin/bash[4d# Check if haiku.txt exists[5d[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m (B[0;1m[33m"haiku.txt"[39m(B[m [32m];[39m(B[m [32mthen[6;5H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Making changes to haiku.txt..."[7d(B[0m[42m    [8d[49m[36m # Store the content of the file in an array[9;5H[39m(B[mIFS[32m=$(B[0;1m[33m'\n'[39m(B[m [32mread(B[0;1m[35m -r -d[39m(B[m (B[0;1m[33m''[35m -a[39m(B[m lines [32m<[39m(B[m haiku.txt[10d[42m    [11d[49m[36m # Iterate over each line in the array[12;5H[32mfor[39m(B[m [32m(([39m(B[m i[32m=[39m(B[m0[32m;[39m(B[m i[32m<(B[0;1m[31m${#lines[@]}(B[0m[32m;[39m(B[m i++ [32m));[39m(B[m [32mdo[13;8H[36m # Make changes to each line as needed[14;8H # Example: convert to lowercase[15;9H[39m(B[mlines[32m[(B[0;1m[31m$i(B[0m[32m]=$((B[0;1m[34mecho[39m(B[m (B[0;1m[33m"${lines[$i]}"[39m(B[m [32m|[39m(B[m tr (B[0;1m[33m'[:upper:]'[39m(B[m (B[0;1m[33m'[:lower:]'(B[0m[32m)[16;5Hdone[17d[39m[42m    [18d[49m[36m # Rewrite the modified content back to the file[19;5H(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[39m(B[m (B[0;1m[33m"${lines[@]}"[39m(B[m [32m>[39m(B[m haiku.txt[20d[42m    [21d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Changes made successfully."[22d(B[0m[32melse[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Error: haiku.txt not found."[24d(B[0m[32mfi[25d[39m(B[m[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: script.sh                                                                   [29;1H(B[m[29;30H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 23 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[25d[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ chmod +x script.sh
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cat haiku,[K.txt
+THE TAO THAT IS SEEN
+IS NOT THE TRUE TAO, UNTIL
+YOU BRING FRESH TONER.
+WITH SEARCHING COMES LOSS
+AND THE PRESENCE OF ABSENCE:
+"MY THESIS" NOT FOUND.
+YESTERDAY IT WORKED
+TODAY IT IS NOT WORKING
+SOFTWARE IS LIKE THAT.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ nano script.sh
+[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;42H(B[0;7m[ Reading... ](B[m[29;40H(B[0;7m[ Read 23 lines ](B[m[H(B[0;7m  GNU nano 4.8                               script.sh                                          [1;95H(B[m[30d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[31;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[2d[39;49m[36m#!/bin/bash[4d# Check if haiku.txt exists[5d[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m (B[0;1m[33m"haiku.txt"[39m(B[m [32m];[39m(B[m [32mthen[6;5H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Making changes to haiku.txt..."[7d(B[0m[42m    [8d[49m[36m # Store the content of the file in an array[9;5H[39m(B[mIFS[32m=$(B[0;1m[33m'\n'[39m(B[m [32mread(B[0;1m[35m -r -d[39m(B[m (B[0;1m[33m''[35m -a[39m(B[m lines [32m<[39m(B[m haiku.txt[10d[42m    [11d[49m[36m # Iterate over each line in the array[12;5H[32mfor[39m(B[m [32m(([39m(B[m i[32m=[39m(B[m0[32m;[39m(B[m i[32m<(B[0;1m[31m${#lines[@]}(B[0m[32m;[39m(B[m i++ [32m));[39m(B[m [32mdo[13;8H[36m # Make changes to each line as needed[14;8H # Example: convert to lowercase[15;9H[39m(B[mlines[32m[(B[0;1m[31m$i(B[0m[32m]=$((B[0;1m[34mecho[39m(B[m (B[0;1m[33m"${lines[$i]}"[39m(B[m [32m|[39m(B[m tr (B[0;1m[33m'[:upper:]'[39m(B[m (B[0;1m[33m'[:lower:]'(B[0m[32m)[16;5Hdone[17d[39m[42m    [18d[49m[36m # Rewrite the modified content back to the file[19;5H(B[0;1m[34mprintf[39m(B[m (B[0;1m[33m"%s\n"[39m(B[m (B[0;1m[33m"${lines[@]}"[39m(B[m [32m>[39m(B[m haiku.txt[20d[42m    [21d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Changes made successfully."[22d(B[0m[32melse[23d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Error: haiku.txt not found."[24d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[1;87H(B[0;7mModified[29d(B[m[K[1;95H[25d[?12l[?25h[?25l[26d[?12l[?25h[?25l[2;29r[29;1H[3S[1;31r[23;1H[36m#!/bin/bash[25d# Convert the content of haiku.txt to lowercase and overwrite the file[26d[39m(B[mtr (B[0;1m[33m'[:upper:]'[39m(B[m (B[0;1m[33m'[:lower:]'[39m(B[m [32m<[39m(B[m haiku.txt [32m>[39m(B[m haiku_lowercase.txt[27d(B[0;1m[34mmv[39m(B[m haiku_lowercase.txt haiku.txt[28d[?12l[?25h[?25l[30;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[14X[30;73H(B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: script.sh                                                                   [29;1H(B[m[29;30H[?12l[?25h[?25l[29;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[29;40H(B[0;7m[ Wrote 30 lines ](B[m[30;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[29d[A[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ chmod +x script.sh
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ ./script.sh
+Making changes to haiku.txt...
+Changes made successfully.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ cat haiku.txt
+the tao that is seen
+is not the true tao, until
+you bring fresh toner.
+with searching comes loss
+and the presence of absence:
+"my thesis" not found.
+yesterday it worked
+today it is not working
+software is like that.
+(base) ]0;suraj-hulke@TIGER03833: ~/thesis[01;32msuraj-hulke@TIGER03833[00m:[01;34m~/thesis[00m$ exit
+exit
+
+Script done on 2024-04-03 16:05:52+05:30 [COMMAND_EXIT_CODE="0"]
